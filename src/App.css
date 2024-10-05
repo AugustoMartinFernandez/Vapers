@@ -17,21 +17,24 @@ body {
 }
 
 .NavBar {
-  background-color: #6a0dad !important;
+  background-color: #8a2be2 !important;
+}
+.navbar-toggler-icon {
+  background-image: url(../public/images/homepage1_114609.ico) !important;
+  height: 24px !important;
+  width: 24px !important;
 }
 .Navlink {
   color: white !important;
 }
 .Navlink:hover {
   color: black !important;
-}
-
-.navbar-toggler {
-  background-color: white !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 .h1 {
-  color: #6a0dad !important;
+  color: #8a2be2 !important;
   text-align: center;
   padding: 20px 0 20px 0;
 }
@@ -44,6 +47,7 @@ body {
 
 .titulo {
   transition: filter 0.3s ease;
+  color: black !important;
 }
 
 .titulo:hover {
@@ -100,7 +104,7 @@ body {
 .text-container h2 {
   font-size: 1.3rem;
   margin-bottom: 20px;
-  color: #6a0dad;
+  color: #8a2be2;
 }
 
 .text-container p {
@@ -116,7 +120,7 @@ body {
   margin-bottom: 10px;
 }
 strong {
-  color: #6a0dad;
+  color: #8a2be2;
 }
 .strong {
   color: #000000;
@@ -131,7 +135,7 @@ article {
 }
 
 article h2 {
-  color: #6a0dad;
+  color: #8a2be2;
 }
 
 .history-section,
@@ -173,7 +177,7 @@ article h2 {
 }
 
 .footer {
-  background-color: #6a0dad;
+  background-color: #8a2be2;
   color: white;
   padding: 20px;
   text-align: center;
@@ -223,7 +227,7 @@ article h2 {
 }
 
 .explore-button {
-  background-color: #6a0dad;
+  background-color: #8a2be2;
   color: white;
   padding: 10px 30px;
   text-decoration: none;
@@ -233,7 +237,7 @@ article h2 {
 
 .explore-button:hover {
   background-color: black;
-  color: #6a0dad;
+  color: #8a2be2;
 }
 
 /* Estilos para la sección de productos */
@@ -261,7 +265,7 @@ article h2 {
 
 .producto h2 {
   font-size: 1.5em;
-  color: #6a0dad; /* Tu color preferido */
+  color: #8a2be2; /* Tu color preferido */
 }
 
 .producto p {
@@ -306,7 +310,7 @@ article h2 {
   }
 
   .gif-container img {
-display: none;
+    display: none;
   }
   .text-container {
     background-color: black;
@@ -317,7 +321,7 @@ display: none;
 
   .text-container h2 {
     font-size: 1.3rem;
-    color: #6a0dad;
+    color: #8a2be2;
     margin-bottom: 15px;
   }
 
@@ -343,7 +347,7 @@ display: none;
   .tips-section h2,
   .stats-section h2 {
     font-size: 1.5em;
-    color: #6a0dad;
+    color: #8a2be2;
   }
   .hero-section {
     background-image: url("../public/gif/gif\ bienvenida.gif");
